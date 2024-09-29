@@ -25,7 +25,7 @@ class Color {
 
         void print() 
          {
-            
+            cout<<endl; // the output was printed weirdly in the terminal so I added this
             cout<<setw(10)<<left<<Red<<setw(10)<<left<<Green<<setw(10)
             <<left<<Blue<<endl<<endl; 
         
