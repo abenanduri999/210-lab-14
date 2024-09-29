@@ -25,11 +25,10 @@ class Color {
 
         void print() 
          {
+            
+            cout<<setw(10)<<left<<Red<<setw(10)<<left<<Green<<setw(10)
+            <<left<<Blue<<endl<<endl; 
         
-            cout<<"r: "<<Red<<endl; 
-            cout<<"g: "<<Green<<endl; 
-            cout<<"b: "<<Blue<<endl;
-
          }
 
 };
@@ -50,11 +49,13 @@ int main() {
     c3.setGreen(240); 
     c3.setBlue(30); 
 
+    cout<<setw(10)<<left<<"RED"<<setw(10)<<left<<
+    "BLUE"<<setw(10)<<left<<"GREEN"<<endl<<endl; 
+
     c1.print();
     c2.print();
     c3.print();
 
-    cout<<setw(10)<<left<<"Color"<<set(10)<<left<<"RED"<<set(10)<<left<<
-    "BLUE"<<set(10)<<left<<"GREEN"<<endl<<endl; 
+    
 
 }
